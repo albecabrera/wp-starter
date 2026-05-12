@@ -3,7 +3,7 @@
 # Usage: bash new-wp-project.sh mein-projekt
 
 PROJECT_NAME=$1
-THEMES_DIR="/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes"
+THEMES_DIR="/Applications/XAMPP/xamppfiles/htdocs/wp-starter/wp-content/themes"
 
 if [ -z "$PROJECT_NAME" ]; then
     echo "Fehler: Projektname fehlt."
