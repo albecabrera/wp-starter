@@ -3,7 +3,7 @@
 # Usage: bash new-wp-project.sh mein-projekt
 
 PROJECT_NAME=$1
-THEMES_DIR="C:/xampp/htdocs/wp-content/themes"   # Passe diesen Pfad an
+THEMES_DIR="/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes"
 
 if [ -z "$PROJECT_NAME" ]; then
     echo "Fehler: Projektname fehlt."
@@ -14,7 +14,7 @@ fi
 TARGET="$THEMES_DIR/$PROJECT_NAME"
 
 echo "Klone wp-starter als $PROJECT_NAME..."
-git clone https://github.com/DEIN-USERNAME/wp-starter.git "$TARGET"
+git clone https://github.com/albecabrera/wp-starter.git "$TARGET"
 
 cd "$TARGET"
 
